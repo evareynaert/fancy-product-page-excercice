@@ -1,0 +1,105 @@
+<html>
+
+<head>
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+	<div id="menu">
+		Menu
+		<a class="menuLink" href="#">Maison</a>
+		<a class="menuLink" href="#">Boutique</a>
+		<a class="menuLink" href="#">Stores</a>
+	</div>
+	<!-- contenu de la page -->
+	<div id="blocPrincipal">
+		<div id="contenu">
+			<img class="grandeImage" src="image1.jpg" />
+			<div id="description">
+				<div id="vignette">
+						<img src="image1.jpg" />
+				</div>
+				<div id="texte">
+					<b>Description</b>
+					<p>Renowned for their traditional aesthetic, William Fox focus on comfort and utility to provide the best fitting garments possible. With this Red Wool Sweater, a prime example.</p>
+					<p>Crafted in Scotland from an insatiably soft wool, the sweater is refined in a striking red colour hue with ribbed cuffs and hem completing the simplistic yet sophisticated design.</p>
+				</div>
+			</div>
+		</div>
+		<!--colonne de droite -->
+		<div id="barre-lateral"> 
+			<div id="premier_bloc" >
+				<div id="texte_premier_bloc_parent">
+					<big class="texte_premier_bloc">Light Grey Wool Sweater by William Fox & Sons</big>
+					<br>
+					<br>
+					<span class="texte_premier_bloc"><big><b>$180</b> </big>USD<br><br></span>
+				</div>
+			<form method="post" action="traitement.php">
+				<span >
+				<small>Option</small>
+				<br />
+		       <select name="taille" id="taille">
+		           <option value="small">Small</option>
+		           <option value="medium">Medium</option>
+		           <option value="large">Large</option>
+		       </select>
+		       </span>
+		       <span id="span_quantite">
+		       <small>Quantité</small>
+		       <br />
+		       	<select name="quantite" id="quantite">
+		           <option value="small">1</option>
+		           <option value="medium">2</option>
+		       </select>
+		   		</span>
+		   		<button id="bouton_ajout" type="button"><b>Add to Cart</b></button>
+		   	</form>
+		   </div>
+		   	<div id="deuxieme-bloc">
+		   		<div>
+		   			<img class="logo inline_bloc" src="logo.jpg" /> 
+		   			<div class="inline_bloc">
+			   			<small>Plus de choses sur</small><br>
+			   			<b>OPUMO</b>
+		   			</div>
+		   		</div>
+		   		<div id="trois_images">
+		   			<img class="petite-image" src="vignette1.jpg"/>
+		   			<img class="petite-image" src="vignette2.jpg"/>
+		   			<img class="petite-image" src="vignette3.jpg"/>
+		   		</div>
+
+		   	</div>
+		</div>
+		<div id="footer">
+			<figure class="miniature_figure"><img class="img_figure" src="image2.jpg">
+				<p class="figure_legende_ligne1">Navy Field Peacot by Camplin</p>
+				<p class="figure_gris">OPUMO + 997</p>
+			</figure>
+			<figure class="miniature_figure colonne_2"><img class="img_figure" src="image2.jpg">
+				<p class="figure_legende_ligne1">Navy Field Peacot by Camplin</p>
+				<p class="figure_gris">OPUMO + 997</p>
+			</figure>
+			<figure class="miniature_figure colonne_3"><img class="img_figure" src="image2.jpg">
+				<p class="figure_legende_ligne1">Navy Field Peacot by Camplin</p>
+				<p class="figure_gris">OPUMO + 997</p>
+			</figure>
+			<figure class="miniature_figure"><img class="img_figure" src="image2.jpg">
+				<p class="figure_legende_ligne1">Navy Field Peacot by Camplin</p>
+				<p class="figure_gris">OPUMO + 997</p>
+			</figure>
+			<figure class="miniature_figure"><img class="img_figure" src="image2.jpg">
+				<p class="figure_legende_ligne1">Navy Field Peacot by Camplin</p>
+				<p class="figure_gris">OPUMO + 997</p>
+			</figure>
+			<figure class="miniature_figure colonne_2"><img class="img_figure" src="image2.jpg">
+				<p class="figure_legende_ligne1">Navy Field Peacot by Camplin</p>
+				<p class="figure_gris">OPUMO + 997</p>
+			</figure>
+		</div>
+	</div>
+<body>
+
+</html>
