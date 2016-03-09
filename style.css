@@ -5,12 +5,9 @@ body{
 
 #blocPrincipal {
 	top: 50px;
-	position: absolute;
 	width: 970px;
-	margin-left: auto;
-  	margin-right: auto;
   	left:auto;
-  	margin: 0;
+  	margin: 0 auto;
   	position: relative;
 }
 
@@ -32,6 +29,7 @@ div#barre-lateral {
 	margin-bottom: 20px;
 	padding-bottom: 5px;
 	border-radius: 5px;
+	color: #606060;
 }
 
 #vignette {
@@ -45,6 +43,8 @@ texte descriptif
 	margin: 0;
 	width: 400px;
 	float: right;
+	font-size: 14px;
+	color: #606060;
 }
 
 #vignette img {
@@ -89,6 +89,12 @@ dimensions de l'image
 	color: #999999;
 	font-style: bold;
 	text-decoration: none;
+	font-size: 13px;
+}
+#menu .menu-container{
+	overflow:hidden;
+	width: 970px;
+	margin: 0 auto;
 }
 
 /*quand on survol le lien */
@@ -223,6 +229,7 @@ form small{
 	margin-top: 10px;
 	margin-bottom: 0px;
 	font-size: 13px;
+	color: #606060;
 }
 
 .figure_gris{
